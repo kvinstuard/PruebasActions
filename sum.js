@@ -8,4 +8,5 @@ function multiplication(a, b) {
 
 
 
-module.exports = sum, multiplication;
+module.exports = sum;
+module.exports = multiplication;
