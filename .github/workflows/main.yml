@@ -27,7 +27,7 @@ jobs:
     name: deploying
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: build and push to docker
       uses: docker/build-push-action@v2
       with:
