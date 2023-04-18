@@ -23,9 +23,6 @@ jobs:
     - name: Run tests
       run: npm test
 
-on: push
-name: deploy 
-jobs:
   deploy: 
     name: deploying
     runs-on: ubuntu-latest
